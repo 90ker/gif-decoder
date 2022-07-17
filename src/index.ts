@@ -342,12 +342,4 @@ class GifInstance {
   }
 }
 
-
-fetch('http://cloudstorage.ihubin.com/blog/audio-video/blog-17/rainbow.gif')
-.then(res => res.arrayBuffer())
-.then(buffer => new DataView(buffer))
-.then(dataView => {
-  let gifInstance =  new GifInstance(dataView);
-  debugger
-  console.log(gifInstance);
-})
+export default GifInstance;
