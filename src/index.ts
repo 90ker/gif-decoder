@@ -342,4 +342,4 @@ class GifInstance {
   }
 }
 
-export default GifInstance;
+export default GifInstance
